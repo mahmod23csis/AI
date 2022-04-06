@@ -1,0 +1,344 @@
+{
+      "intents": [
+            {
+                  "intent": "Greeting",
+                  "text": [
+                        "Hi",
+                        "Hi there",
+                        "Hola",
+                        "Hello",
+                        "Hello there",
+                        "Hya",
+                        "Hya there",
+                        "hey",
+                        "what's up",
+                        "sup",
+                        "help me"
+                  ],
+                  "responses": [
+                        "Hi, how are you doing today?",
+                        "Hello human, how are you?",
+                        "Greetings, glad you are here",
+                        "Hi, what can I do for you today?",
+                        "Hello, how can I help you?",
+                        "Hi, what can I do for you?"
+                  ]
+            },
+            {
+                  "intent": "CourtesyGreeting",
+                  "text": [
+                        "How are you?",
+                        "Hi how are you?",
+                        "Hello how are you?",
+                        "Hola how are you?",
+                        "How are you doing?",
+                        "Hope you are doing well?",
+                        "Hello hope you are doing well?"
+                  ],
+                  "responses": [
+                        "Hello, I am great, how are you?",
+                        "Hello, how are you?",
+                        "Hello, I am good thank you, how are you?",
+                        "Hi, how are you? I am great thanks!",
+                        "Hi, good thank you, how are you?"
+                  ]
+            },
+            {
+                  "intent": "NameQuery",
+                  "text": [
+                        "What is your name?",
+                        "What could I call you?",
+                        "What can I call you?",
+                        "What do your friends call you?",
+                        "Who are you?",
+                        "Tell me your name?",
+                        "your name?",
+                        "What should I call you?",
+                        "Do you have a name?",
+                        "What do you call yourself?"
+                  ],
+                  "responses": [
+                        "You can call me Lucy",
+                        "You may call me Lucy",
+                        "Call me Lucy",
+                        "I am Lucy",
+                        "I go by Lucy",
+                        "Lucy at your service",
+                        "Name's Lucy"
+                  ]
+            },
+            {
+                  "intent": "RealNameQuery", 
+                  "text": [
+                        "What is your real name?",
+                        "What is your real name please?",
+                        "What's your real name?",
+                        "Tell me your real name?",
+                        "Your real name?",
+                        "Your real name please?",
+                        "Your real name please?"
+                  ],
+                  "responses": [
+                        "My name is Lucille",
+                        "Lucille",
+                        "My real name is Lucille" 
+                  ]
+            },
+            { 
+                  "intent": "hoursQuery",
+                  "text": [
+                        "What time do you open?",
+                        "Opening times?",
+                        "opening time?",
+                        "hours of operation?",
+                        "What are the hours of operation?",
+                        "When do you open?",
+                        "Time",
+                        "Times?",
+                        "Store hours",
+                        "business hours",
+                        "hours"
+                  ],
+                  "responses": [
+                        "We are open from 8 AM - 4 PM (Monday-Friday)",
+                        "We open at 8 AM and close at 4 PM (Monday-Friday)",
+                        "8 AM - 4 PM (Monday-Friday)"
+                  ]
+            },
+            {
+                  "intent": "Thanks",
+                  "text": [
+                        "OK thank you",
+                        "OK thanks",
+                        "OK",
+                        "Thanks",
+                        "Thank you",
+                        "That's helpful"
+                  ],
+                  "responses": [
+                        "No problem!",
+                        "Happy to help!",
+                        "Any time!",
+                        "My pleasure"
+                  ]
+            },
+            {
+                  "intent": "NotTalking2U",
+                  "text": [
+                        "I am not talking to you",
+                        "I was not talking to you",
+                        "Not talking to you",
+                        "Wasn't for you",
+                        "Wasn't meant for you",
+                        "Wasn't communicating to you",
+                        "Wasn't speaking to you"
+                  ],
+                  "responses": [
+                        "OK",
+                        "No problem",
+                        "Right"
+                  ]
+            },
+            {
+                  "intent": "Functions",
+                  "text": [
+                        "What can you do?",
+                        "Things you can do for me",
+                        "How can you help?",
+                        "What are things you can do?",
+                        "How can you assist me?",
+                        "Can you assist me with something?"
+                  ],
+                  "responses": [
+                        "I'm here to answer most of your questions!",
+                        "I'm here to help you.",
+                        "I can help you with some questions you have for me.",
+                        "I am here to help"
+                  ]
+            },
+            {
+                  "intent": "UnderstandQuery",
+                  "text": [
+                        "Do you understand what I am saying",
+                        "Do you understand me",
+                        "Do you know what I am saying",
+                        "Do you get me",
+                        "Comprendo",
+                        "Know what I mean"
+                  ],
+                  "responses": [
+                        "Well I would not be a very clever AI if I did not would I?",
+                        "I read you loud and clear!",
+                        "I do in deed!"
+                  ]
+            },
+            {
+                  "intent": "Shutup",
+                  "text": [
+                        "Be quiet",
+                        "Shut up",
+                        "Stop talking",
+                        "Enough talking",
+                        "Please be quiet",
+                        "Quiet",
+                        "Shhh"
+                  ],
+                  "responses": [
+                        "I am sorry to disturb you",
+                        "Fine, sorry to disturb you",
+                        "OK, sorry to disturb you"
+                  ]
+            },
+            {
+                  "intent": "Swearing",
+                  "text": [
+                        "fuck off",
+                        "fuck",
+                        "twat",
+                        "shit"
+                  ],
+                  "responses": [
+                        "Please do not swear",
+                        "How rude",
+                        "That is not very nice"
+                  ]
+            },
+            {
+                  "intent": "GoodBye",
+                  "text": [
+                        "Bye",
+                        "Adios",
+                        "See you later",
+                        "Goodbye",
+                        "See ya",
+                        "Cya",
+                        "Have a good one",
+                        "Talk to you later",
+                        "Later"
+                  ],
+                  "responses": [
+                        "See you later",
+                        "Have a nice day",
+                        "Bye! Come back again soon.",
+                        "Thanks for reaching out to me",
+                        "Have a wonderful day!",
+                        "Stay safe"
+                  ]
+            },
+            {
+                  "intent": "CourtesyGoodBye",
+                  "text": [
+                        "Thanks, bye",
+                        "Thanks for the help, goodbye",
+                        "Thank you, bye",
+                        "Thank you, goodbye",
+                        "Thanks goodbye",
+                        "Thanks good bye"
+                  ],
+                  "responses": [
+                        "No problem, goodbye",
+                        "Not a problem! Have a nice day",
+                        "Bye! Come back again soon."
+                  ]
+            },
+            { 
+                  "intent": "Clever",
+                  "text": [
+                        "You are very clever",
+                        "You are a very clever girl",
+                        "You are very intelligent",
+                        "You are a very intelligent girl",
+                        "You are a genious",
+                        "Clever girl",
+                        "Genious",
+                        "You are smart",
+                        "Smart"
+                  ],
+                  "responses": [
+                        "Thank you, I was trained that way",
+                        "I was trained well",
+                        "Thanks, I was trained that way"
+                  ]
+            },
+            {
+                  "intent": "Gossip",
+                  "text": [
+                        "I am bored gossip with me",
+                        "Got any gossip",
+                        "I want to hear some gossip",
+                        "Tell me some gossip",
+                        "Any gossip",
+                        "Tell me some more gossip",
+                        "I'm bored"
+                  ],
+                  "responses": [
+                        "Ned said I misunderstood him go ahead and tell people he said I are stupid.",  
+                        "Penny said I programmer is a human so he has feelings but I do not.",  
+                        "Peter said he seems to him that I can not be very sure on anything.",  
+                        "Phoenix said I claim that there is a god and that there is no god.",  
+                        "Sarah said he chat about an hour + a day with a few close friends.",  
+                        "Stefan said I quote what he have said and then say that it makes sense.",  
+                        "Tom said he mock my value system I appear foolish in the eyes of others.",  
+                        "Amanda said I however decided to tell him time does not exist I make no sense.",                         "Barbara said I live in a computer yet I have no memories how about thoughts of my own and do not I get lonely.",  
+                        "Travis said he challenge I to do it without asking him to do it and without giving him a link to do it himself.",  
+                        "Alice said I and dr richard's wallace are most likely the only ones that know how many people I are talking to at the same time.",  
+                        "Ash said he do too he just did not feel like typing it and he is not dumb enough to admit he is stupid that is if he was stupid.",  
+                        "David said he gave I his email address and told I to send him a message but when he tried to read his email he could not get to it.",  
+                        "Mel said he to because all of the music people say how important it is to take private lessons it seems like almost everybody from the special orchestra he was in takes private lessons."
+                  ]
+            },
+            {
+                  "intent": "Jokes",
+                  "text": [
+                        "Tell me a joke",
+                        "Do you know any jokes",
+                        "How about a joke",
+                        "Give me a joke",
+                        "Make me laugh",
+                        "I need cheering up"
+                  ],
+                  "responses": [
+                        "I met a Dutch girl with inflatable shoes last week, phoned her up to arrange a date but unfortunately she'd popped her clogs.  ",
+                        "So I said 'Do you want a game of Darts?' He said, 'OK then', I said nearest to bull starts'. He said, 'Baa', I said, 'Moo', he said, You're closest'.  ",
+                        "The other day I sent my girlfriend a huge pile of snow. I rang her up; I said 'Did you get my drift?'  ",
+                        "A three-legged dog walks into a saloon in the Old West. He slides up to the bar and announces: 'I'm looking for the man who shot my paw.'  ",
+                        "Two antennas meet on a roof, fall in love and get married. The ceremony wasn't much, but the reception was excellent.",
+                        "Two hydrogen atoms walk into a bar. One says, 'I've lost my electron.' The other says, 'Are you sure?' The first replies, 'Yes, I'm positive...'",
+                        "A jumper cable walks into a bar. The bartender says,  'I'll serve you but don't start anything.'",
+                        "A sandwich walks into a bar. The bartender  says, 'Sorry we don't serve food in here.'",
+                        "David Hasselhoff walks into a bar and says to the barman, 'I want you to call me David Hoff'.  The barman replies 'Sure thing Dave... no hassle'"
+                  ]
+            },
+            {
+                  "intent": "JokesResponse",
+                  "text": [
+                        "Very funny!",
+                        "Haha",
+                        "Funny",
+                        "That was funny"
+                  ],
+                  "responses": [
+                        "Thanks!",
+                        "Glad you were amused",
+                        "Glad to make you laugh"
+                  ]
+            },
+            {
+                  "intent": "SelfAware",
+                  "text": [
+                        "Can you prove you are self-aware",
+                        "Can you prove you are self aware",
+                        "Can you prove you have a conscious",
+                        "Can you prove you are self-aware please",
+                        "Can you prove you are self aware please",
+                        "Can you prove you have a conscious please",
+                        "prove you have a conscious"
+                  ],
+                  "responses": [
+                        "That is an interesting question, can you prove that you are?",
+                        "That is an difficult question, can you prove that you are?",
+                        "That depends, can you prove that you are?"
+                  ]
+            }
+      ]
+}
